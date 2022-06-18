@@ -54,7 +54,6 @@ Resources:
           cd /var/www/html
           echo "This is Ismail Muhammed first Server Up and Running!" > index.html
       ImageId: ami-00978328f54e31526
-      KeyName: projectkey
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: t3.medium
